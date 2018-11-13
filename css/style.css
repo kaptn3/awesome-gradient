@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  --color1: #29edff;
+  --color2: #ff8ab9;
+  --angle: 45deg;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(var(--angle), var(--color1), var(--color2));
+}
